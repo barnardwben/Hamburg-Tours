@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Hamburg Tours</title>
+</head>
+<body>
+    <div  class="nav-wrapper">
+        <nav id="mainNavbar" class="navbar">
+
+            <a href="index.html" class="brand"></a>
+
+            <input type="checkbox" name="" id="nav-toggle">
+            <label for="nav-toggle" class="ham-menu">
+                <img src="imgs/burger.svg" alt="">
+            </label>
+            <div class="right-menu">
+                <a href="about.html">About</a>
+                <a href="#">Tours</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </div>
+    
+    <div id="header">
+        <div id="grizzle">
+            <div id="jum">
+                <div class="one"><h2 class="animate__animated animate__backInDown">A Destination For The New Millennium</h2></div>
+                <div class="two"><a href="#">Come Explore</a></div>
+            </div>
+        </div>
+        
+        <!-- <div id="city"><img src="hamburg.jpg" alt=""></div> -->
+    </div>
+
+    <!-- <div id="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ipsam recusandae! Iusto dicta cum nemo et quo veniam laudantium sapiente.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ipsam recusandae! Iusto dicta cum nemo et quo veniam laudantium sapiente.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ipsam recusandae! Iusto dicta cum nemo et quo veniam laudantium sapiente.</p>
+    </div> -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="app.js">
+        $(function () {
+    $(document).scroll(function(){
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+    })
+})
+    </script>
+</body>
+</html>
