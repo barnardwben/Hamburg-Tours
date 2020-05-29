@@ -195,7 +195,9 @@ nav a:hover {
     /* position: relative; */
     transition: 1s all ease-in-out;
     /* z-index: -2; */
-    border-radius: 500px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
 }
 
 #overlay:hover {
@@ -238,9 +240,31 @@ nav a:hover {
         width: 300px;
         height: 300px;
     }
+
+    #overlay {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 @media only screen and (max-width: 800px) {
+
+    #container{
+        padding: 0;
+    }
+
+    .grid-one {
+        text-align: center;
+        justify-self: center;
+        margin: 15px;
+        width: 250px;
+        height: 250px;
+    }
+
+    #overlay {
+        width: 250px;
+        height: 250px;
+    }
 
     .grid-two {
         grid-column: 1;
