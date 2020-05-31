@@ -280,9 +280,14 @@ nav a:hover {
 /* Tours */
 #tbody {
     padding: 20vh;
-    background-color: rgb(126, 151, 226);
+    background-image: url("imgs/hamburg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* height: 100vh; */
 }
 
 
