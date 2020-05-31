@@ -276,20 +276,37 @@ nav a:hover {
     }
 }
 
-#tbody {
-    padding: 50vh;
-    background-color: royalblue;
-}
 
 /* Tours */
-.card {
+#tbody {
+    padding: 20vh;
+    background-color: rgb(126, 151, 226);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.card1 {
+    grid-column: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    margin: 10px;
     text-align: center;
     font-family: arial;
   }
-  
+
+.card2 {
+    grid-column: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    /* max-width: 300px; */
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    width: 500px;
+  }
+
   .price {
     color: grey;
     font-size: 22px;
