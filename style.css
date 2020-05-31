@@ -279,15 +279,22 @@ nav a:hover {
 
 /* Tours */
 #tbody {
-    padding: 20vh;
-    background-image: url("imgs/hamburg.jpg");
+    padding: 23.5vh;
+    background-image: url("imgs/water.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    height: 120vh;
+    position: relative;
+    
+}
+
+#tours-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* height: 100vh; */
+    top: 130vh;
+    position: absolute;
 }
 
 
@@ -302,6 +309,72 @@ nav a:hover {
   }
 
 .card2 {
+    grid-column: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    /* max-width: 300px; */
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    width: 500px;
+  }
+
+.card3 {
+    grid-column: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    /* max-width: 300px; */
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    width: 500px;
+  }
+
+.card4 {
+    grid-column: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    /* max-width: 300px; */
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    width: 500px;
+  }
+
+.card5 {
+    grid-column: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    /* max-width: 300px; */
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    width: 500px;
+  }
+
+.card6 {
+    grid-column: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    /* max-width: 300px; */
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    width: 500px;
+  }
+
+.card7 {
+    grid-column: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    /* max-width: 300px; */
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    width: 500px;
+  }
+
+.card8 {
     grid-column: 2;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: rgb(255, 255, 255);
