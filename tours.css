@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("imgs/water.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Navbar */
+.nav-wrapper {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  margin: 0;
+  max-width: 1720px;
+}
+
+
+
+.right-menu {
+  grid-column: 3;
+  align-self: center;
+  text-align: end;
+}
+
+.brand {
+  grid-column: 2;
+  align-self: center;
+  /* justify-self: start; */
+  padding: 1.5rem;
+  /* margin-left: 15px; */
+  background-image: url("imgs/flag2.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
+}
+
+
+.flag-img {
+  width: 50px;
+}
+
+#nav-toggle, .ham-menu {
+  display: none;
+}
+
+.wb {
+  width: 32px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .right-menu {
+      display: none;
+  }
+
+  .ham-menu {
+      display: inline-block;
+  }
+
+  #nav-toggle:checked ~ .right-menu {
+      display: grid;
+      grid-row: 2;
+  }
+}
+
+.ham-menu {
+  grid-column: 3;
+  text-align: end;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.right-menu a {
+  padding: 7.5px 0;
+  margin-right: 15px;
+  font-size: 14px;
+  letter-spacing: .75px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  /* font-weight: 900; */
+  text-transform: uppercase;
+  transition: .3s all ease-in-out;
+}
+
+nav a:hover {
+  opacity: .7;
+}
+
+.navbar.scrolled {
+  background: rgba(16, 22, 20, 0.705);
+  transition: background 1s;
+}
+
+/* body */
+
+.bl-container {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  background: inherit;
+  overflow: hidden;
+
+}
+
+.bl-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px);
+}
+
+.card1 {
+  grid-column: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+}
+
+.card2 {
+  grid-column: 2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  /* max-width: 300px; */
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  width: 500px;
+}
+
+.card3 {
+  grid-column: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  /* max-width: 300px; */
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  width: 500px;
+}
+
+.card4 {
+  grid-column: 2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  /* max-width: 300px; */
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  width: 500px;
+}
+
+.card5 {
+  grid-column: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  /* max-width: 300px; */
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  width: 500px;
+}
+
+.card6 {
+  grid-column: 2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  /* max-width: 300px; */
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  width: 500px;
+}
+
+.card7 {
+  grid-column: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  /* max-width: 300px; */
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  width: 500px;
+}
+
+.card8 {
+  grid-column: 2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  /* max-width: 300px; */
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  width: 500px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
