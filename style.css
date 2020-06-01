@@ -278,27 +278,43 @@ nav a:hover {
 
 
 /* Tours */
-#tbody {
-    padding: 23.5vh;
+  
+  #tbody {
+    /* padding: 23.5vh; */
     background-image: url("imgs/water.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 120vh;
+    /* height: 120vh; */
     position: relative;
     
-}
-
-#tours-container {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+  
+  #tours-container {
+    padding-top: 100vh;
+    /* position: absolute; */
+  }
+  
+  #anc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 0 100px;
+    padding: 30px;
+  }
+  
+  /* #tours-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     top: 130vh;
     position: absolute;
-}
-
-
-.card1 {
+  } */
+  
+  
+  .card1 {
     grid-column: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: rgb(255, 255, 255);
@@ -307,8 +323,8 @@ nav a:hover {
     text-align: center;
     font-family: arial;
   }
-
-.card2 {
+  
+  .card2 {
     grid-column: 2;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: rgb(255, 255, 255);
@@ -318,8 +334,8 @@ nav a:hover {
     font-family: arial;
     width: 500px;
   }
-
-.card3 {
+  
+  .card3 {
     grid-column: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: rgb(255, 255, 255);
@@ -329,8 +345,8 @@ nav a:hover {
     font-family: arial;
     width: 500px;
   }
-
-.card4 {
+  
+  .card4 {
     grid-column: 2;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: rgb(255, 255, 255);
@@ -340,8 +356,8 @@ nav a:hover {
     font-family: arial;
     width: 500px;
   }
-
-.card5 {
+  
+  .card5 {
     grid-column: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: rgb(255, 255, 255);
@@ -351,8 +367,8 @@ nav a:hover {
     font-family: arial;
     width: 500px;
   }
-
-.card6 {
+  
+  .card6 {
     grid-column: 2;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: rgb(255, 255, 255);
@@ -362,8 +378,8 @@ nav a:hover {
     font-family: arial;
     width: 500px;
   }
-
-.card7 {
+  
+  .card7 {
     grid-column: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: rgb(255, 255, 255);
@@ -373,8 +389,8 @@ nav a:hover {
     font-family: arial;
     width: 500px;
   }
-
-.card8 {
+  
+  .card8 {
     grid-column: 2;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: rgb(255, 255, 255);
@@ -384,7 +400,7 @@ nav a:hover {
     font-family: arial;
     width: 500px;
   }
-
+  
   .price {
     color: grey;
     font-size: 22px;
@@ -405,3 +421,4 @@ nav a:hover {
   .card button:hover {
     opacity: 0.7;
   }
+  
