@@ -277,6 +277,27 @@ nav a:hover {
 }
 
 
+/* Call of Action */
+.coa {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(233, 222, 222, 0.87);
+    background-color: rgba(8, 8, 8, 0.507);
+    z-index: 1;
+}
+
+.hed {
+    grid-column: 1;
+    text-align: center;
+    color: rgba(233, 222, 222, 0.87);
+}
+
+
 /* Tours */
   
   #tbody {
@@ -286,7 +307,7 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    /* height: 120vh; */
+    height: 100vh;
     position: relative;
     
     /* display: grid;
