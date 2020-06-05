@@ -317,14 +317,18 @@ nav a:hover {
   #tours-container {
     padding-top: 100vh;
     /* position: absolute; */
+
+    /* background-color: rgba(255, 251, 251, 0.2); */
   }
   
   #anc {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    margin: 0 100px;
+    /* margin: 0 100px; */
     padding: 30px;
+
+    background-color: rgba(253, 252, 186, 0.87);
   }
   
   /* #tours-container {
