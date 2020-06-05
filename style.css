@@ -348,7 +348,10 @@ nav a:hover {
     text-align: center;
     font-family: 'Tenali Ramakrishna', sans-serif;
     font-size: 20px;
+    border-radius: 5%;
+    transition: .3s all ease-in-out;
   }
+
   
   .card2 {
     grid-column: 2;
@@ -360,11 +363,14 @@ nav a:hover {
     font-family: 'Tenali Ramakrishna', sans-serif;
     font-size: 20px;
     width: 500px;
+    border-radius: 5%;
   }
 
   .ic {
     width: 500px;
     height: 335px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
   }
   
   .price {
