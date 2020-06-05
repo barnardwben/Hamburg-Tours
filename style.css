@@ -325,10 +325,10 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    /* margin: 0 100px; */
+    margin: 0 100px;
     padding: 30px;
 
-    background-color: rgba(253, 252, 186, 0.87);
+    /* background-color: rgba(247, 246, 215, 0.87); */
   }
   
   /* #tours-container {
@@ -342,7 +342,7 @@ nav a:hover {
   .card1 {
     grid-column: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(44, 200, 228, 0.226);
     width: 500px;
     margin: 10px;
     text-align: center;
@@ -353,7 +353,7 @@ nav a:hover {
   .card2 {
     grid-column: 2;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(44, 200, 288, 0.226);
     /* max-width: 300px; */
     margin: 10px;
     text-align: center;
