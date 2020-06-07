@@ -161,6 +161,10 @@ nav a:hover {
     background-color: #ce0606;
 }
 
+
+
+
+
 /* About Page */
 
 #container {
@@ -463,3 +467,79 @@ nav a:hover {
     }
 }
 
+
+/* Footer index */
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 106.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: red; */
+    color: white;
+    text-align: center;
+  }
+
+  .footer a {
+      padding-right: 15px;
+      text-decoration: none;
+      color: rgba(233, 222, 222, 0.87);
+      transition: .3s all ease-in-out;
+  }
+  
+  .footer a:hover {
+      opacity: .5;
+  }
+
+  /* Footer about*/
+.footer-about {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /* top: 90vh; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: black; */
+    /* color: white; */
+    text-align: center;
+  }
+
+  .footer-about a {
+      padding-right: 15px;
+      text-decoration: none;
+      color: rgba(233, 222, 222, 0.87);
+      transition: .3s all ease-in-out;
+  }
+  
+  .footer-about a:hover {
+      opacity: .5;
+  }
+
+  /* Footer Tours */
+.footer-tours {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /* top: 90vh; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: black; */
+    /* color: white; */
+    text-align: center;
+  }
+
+  .footer-tours a {
+      padding-right: 15px;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.87);
+      transition: .3s all ease-in-out;
+  }
+  
+  .footer-tours a:hover {
+      /* color: rgba(0, 0, 0, 0.507); */
+      opacity: .7;
+  }
