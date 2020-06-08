@@ -113,6 +113,7 @@ body {
 .form-container {
   grid-column: 1;
   position: relative;
+  /* display: grid; */
   top: 80px;
   /* max-width: 600px; */
   /* max-height: 300px; */
@@ -125,9 +126,11 @@ body {
    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 }
 
+
+
 /* Footer */
 .footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   /* top: 106.5vh; */
@@ -135,14 +138,14 @@ body {
   display: flex;
   justify-content: flex-end;
   /* background-color: red; */
-  color: white;
+  /* color: white; */
   text-align: center;
 }
 
 .footer a {
     padding-right: 15px;
     text-decoration: none;
-    color: rgba(233, 222, 222, 0.87);
+    color: rgba(141, 128, 128, 0.87);
     transition: .3s all ease-in-out;
 }
 
