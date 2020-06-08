@@ -290,6 +290,10 @@ nav a:hover {
     .grid-two {
         grid-column: 1;
     }
+
+    .grid-two p {
+        padding: 10px;
+    }
 }
 
 
