@@ -108,7 +108,8 @@ body {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   justify-items: center;
-  background-color: rgba(209, 198, 198, 0.87);
+  /* background-color: rgba(209, 198, 198, 0.87); */
+  background-color: rgba(194, 193, 193, 0.87);
 }
 
 /* SlideShow */
