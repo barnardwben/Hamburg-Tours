@@ -338,23 +338,25 @@ body {
   }
 
   .ic {
-    width: 200px;
+    width: 240px;
     height: 310px;
   }
 
   .text {
-    width: 200px;
+    width: 220px;
     top: 67%;
-    left: 7px;
+    left: 8px;
   }
 
   .form-container {
     width: 230px;
-    font-size: 16px;
+    font-size: 15px;
+    margin: 0;
+    padding: 0 16px;
   }
 
   .f-ele {
-    margin: 10px;
+    margin: 6px;
     padding: 0px;
   }
 }
