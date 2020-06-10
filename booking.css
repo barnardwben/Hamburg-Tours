@@ -304,3 +304,23 @@ body {
 }
 
 /* Responsive */
+@media only screen and (max-width: 1000px) {
+  .slideshow-container {
+    width: 600px;
+    height: 500px;
+  }
+
+  .ic {
+    width: 320px;
+    height: 400px;
+  }
+
+  .text {
+    width: 320px;
+  }
+
+  .form-container {
+    width: 280px;
+    font-size: 16px;
+  }
+}
