@@ -75,12 +75,35 @@
   <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
 
   <div class="form-container">
-    <div>
-      <form>
-        <label for="bdate" class="td">Tour Date:</label>
-        <input type="date" id="bdate" name="bdate" class="td">
+      <form autocomplete="on">
+        <div>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname" class="f-ele" required>
+        </div>
+        <div>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname" class="f-ele" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="f-ele" required>
+        </div>
+        <div>
+          <label for="quantity">Number of Travelers:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10" class="f-ele" required>
+        </div>
+        <div>
+          <label for="bdate" class="td">Tour Date:</label>
+          <input type="date" id="bdate" name="bdate" class="f-ele" required>
+        </div>
+        <div>
+          <label for="appt">Select a time:</label>
+          <input type="time" id="appt" name="appt" class="f-ele" required>
+        </div>
+        <div>
+          <input type="submit" value="Submit" class="ent">
+        </div>
       </form>
-    </div>
   </div>
 </div>
 
