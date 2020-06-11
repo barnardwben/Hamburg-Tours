@@ -267,6 +267,39 @@ nav a:hover {
         height: 300px;
     }
 }
+@media only screen and (max-width: 1000px) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-one {
+        width: 250px;
+        height: 250px;
+    }
+
+    .grid-two h1 {
+        font-size: 2rem;
+    }
+    .grid-two p {
+        font-size: 1.3rem;
+    }
+
+    .grid-two {
+        max-width: 1000px;
+    }
+
+    #container {
+        max-width: 100%;
+        max-height: 100%;
+        /* line-height: 2.3rem; */
+    }
+
+    #overlay {
+        width: 250px;
+        height: 250px;
+    }
+}
 
 @media only screen and (max-width: 800px) {
 
