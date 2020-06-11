@@ -286,7 +286,7 @@ nav a:hover {
 @media only screen and (max-width: 900px) {
 
     #container{
-        height: 100vh;
+        height: 110vh;
         padding: 0;
     }
 
@@ -308,7 +308,8 @@ nav a:hover {
     }
 
     .grid-two p {
-        padding: 10px;
+        /* line-height: 1.5rem; */
+        padding: 15px;
     }
 }
 
